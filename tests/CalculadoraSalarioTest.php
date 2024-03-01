@@ -34,6 +34,11 @@ it('testador com salário menor que 2000 deve ter desconto de 15%', function () 
     $this->assertEquals(1275, CalculadoraSalario::calcularSalarioLiquido($funcionario));
 });
 
+it('testador com salário menor que 2000 deve ter desconto de 15% - 2', function () {
+    $funcionario = new Funcionario("Rafael", 550, "TESTADOR");
+    $this->assertEquals(467.50, CalculadoraSalario::calcularSalarioLiquido($funcionario));
+});
+
 
 it('gerente com salário maior que 5000 deve ter desconto de 30%', function () {
     $funcionario = new Funcionario("Maria da Silva", 6000, "GERENTE");
