@@ -1,8 +1,8 @@
 <?php
+declare(strict_types=1);
 
-
-use EmersonLeite\classes\CalculadoraSalario;
-use EmersonLeite\classes\Funcionario;
+use Base\classes\CalculadoraSalario;
+use Base\classes\Funcionario;
 
 it('desenvolvedor com salário maior que 3000 deve ter desconto de 20%', function () {
     $funcionario = new Funcionario("João", 3500, "DESENVOLVEDOR");

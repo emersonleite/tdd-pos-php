@@ -1,6 +1,6 @@
 <?php
 
-function fizzBuzz($number): string
+function fizzBuzz(int $number): string
 {
     if ($number % 3 == 0 && $number % 5 == 0) {
         return 'FizzBuzz';

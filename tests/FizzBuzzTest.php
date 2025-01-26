@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 require_once "src/functions/fizzBuzz.php";
 
 it('returns Fizz when the number is divisible by 3', function () {

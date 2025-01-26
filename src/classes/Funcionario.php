@@ -1,6 +1,6 @@
 <?php
 
-namespace EmersonLeite\classes;
+namespace Base\classes;
 
 class Funcionario
 {
